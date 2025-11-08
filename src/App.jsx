@@ -10,6 +10,7 @@ import Cake from './pages/Cake';
 import Gift from './pages/Gift';
 import Gallery from './pages/Gallery';
 import Letter from './pages/Letter';
+import About from './pages/About';
 // import Ending from './pages/Ending';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/gift" element={<Gift />} />
           <Route path='/gallery' element = {<Gallery />} />
           <Route path='/letter' element={<Letter />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </AnimatePresence>
     </Router>
